@@ -26,6 +26,7 @@ export default class App extends React.Component {
 
     //定义在类上的方法
     saveTodo(){
+
         // console.log(this)
         const todoInput =document.getElementById('todoInput').value
                     // console.log(todoInput)
