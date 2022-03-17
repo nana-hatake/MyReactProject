@@ -9,8 +9,8 @@ export default class DoneItem extends React.Component{
         return(
             <div>
               <ul>
-                  {this.props.doneitem.map((item) =>
-                          <li id={item.index}>{item}
+                  {this.props.doneitem.map((item,index) =>
+                          <li id={index}>{item}
                                    </li>
 
                   )
